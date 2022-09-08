@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/sneakers/static/css/main.073c9b0a.css",
-    "main.js": "/sneakers/static/js/main.8b1f7fa6.js",
-    "static/js/787.32d3dd07.chunk.js": "/sneakers/static/js/787.32d3dd07.chunk.js",
-    "static/media/logo.svg": "/sneakers/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/sneakers/static/css/main.dc1db701.css",
+    "main.js": "/sneakers/static/js/main.0c806c44.js",
+    "static/media/ordered.jpg": "/sneakers/static/media/ordered.03fd423d80dbf9cd5a1d.jpg",
+    "static/media/add_selected.svg": "/sneakers/static/media/add_selected.890c21e6e092e231b04d7f8d3b23767a.svg",
+    "static/media/fav_not_selected.svg": "/sneakers/static/media/fav_not_selected.dbddb85a65c80405e2d8ac198b59ea70.svg",
+    "static/media/loader.svg": "/sneakers/static/media/loader.58f96eb1c81a3afdffbf27ff6fb0feaf.svg",
+    "static/media/fav.svg": "/sneakers/static/media/fav.25f26213df9d06335ae6995b4517dc9c.svg",
+    "static/media/fav_selected.svg": "/sneakers/static/media/fav_selected.553d151b49e111459401445d4a6d4f19.svg",
+    "static/media/chel.svg": "/sneakers/static/media/chel.381202f7e3edbc1a00b14fbd5e529a32.svg",
+    "static/media/stash.svg": "/sneakers/static/media/stash.5113b08fb682dc25f3856ef704a6c05d.svg",
     "index.html": "/sneakers/index.html",
-    "main.073c9b0a.css.map": "/sneakers/static/css/main.073c9b0a.css.map",
-    "main.8b1f7fa6.js.map": "/sneakers/static/js/main.8b1f7fa6.js.map",
-    "787.32d3dd07.chunk.js.map": "/sneakers/static/js/787.32d3dd07.chunk.js.map"
+    "static/media/delete.svg": "/sneakers/static/media/delete.b1fef0aa93fbf25374f4991d23f900d8.svg",
+    "static/media/add_not_selected.svg": "/sneakers/static/media/add_not_selected.b88e94c67ea7ac0cfa69033241c96b8c.svg",
+    "main.dc1db701.css.map": "/sneakers/static/css/main.dc1db701.css.map",
+    "main.0c806c44.js.map": "/sneakers/static/js/main.0c806c44.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.8b1f7fa6.js"
+    "static/css/main.dc1db701.css",
+    "static/js/main.0c806c44.js"
   ]
 }

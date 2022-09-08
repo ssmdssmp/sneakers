@@ -1,0 +1,117 @@
+.stash {
+  position: absolute;
+  top: 0;
+  right: -25vw;
+  height: 100vh;
+  width: 25vw;
+  background-color: #fff;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 3;
+  padding: 30px 30px;
+}
+
+.stash-title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.stash-items-list {
+  overflow: scroll;
+  height: 100%;
+  max-height: 80vh;
+  margin-top: 50px;
+  gap: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.stash-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1vw;
+  width: 325px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid #f3f3f3;
+}
+.stash-item-title {
+  font-size: 14px;
+}
+.stash-item-title span {
+  display: block;
+  font-weight: 700;
+}
+.stash-item-price {
+  margin-top: 10px;
+}
+.stash-item .item-img {
+  width: 80px;
+  height: 80px;
+}
+.delete {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.sum {
+  width: 100%;
+}
+.sum ul {
+  list-style: none;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.sum li {
+  display: flex;
+  white-space: nowrap;
+}
+.sum li div {
+  border-bottom: 1px dashed gray;
+  width: 100%;
+}
+.stash-btn {
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #8ab43b;
+  font-size: 16px;
+  font-weight: 700;
+}
+.close-stash {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+.empty-stash {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 35%;
+  right: 0;
+}
+.empty-stash p {
+  width: 80%;
+  text-align: center;
+}
+.empty-stash-img {
+  margin-bottom: 2vh;
+}
+.empty-stash .stash-btn {
+  width: 80%;
+}

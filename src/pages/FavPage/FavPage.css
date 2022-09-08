@@ -1,0 +1,15 @@
+.empty-fav {
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.empty-fav img {
+  margin-bottom: 2vh;
+  width: 80px;
+  height: 80px;
+}
+.empty-fav .stash-btn {
+  width: 200px;
+}

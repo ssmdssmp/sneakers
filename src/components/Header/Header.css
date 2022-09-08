@@ -1,0 +1,55 @@
+header {
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  background-color: white;
+  margin: 5vh 10vw 0vh;
+  padding: 3vh 5vw;
+  justify-content: space-between;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  /* overflow: hidden; */
+}
+hr {
+  margin-top: 2vh;
+  position: absolute;
+  bottom: 0;
+  width: 88%;
+  border-top: 1px solid #eaeaea;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.header-left {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 1.7vh;
+  text-transform: uppercase;
+  font-weight: 700;
+  gap: 1vw;
+}
+.header-left span {
+  display: block;
+  text-transform: none;
+  font-weight: normal;
+  color: rgb(134, 134, 134);
+  font-size: 2vh;
+  white-space: nowrap;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.header-right img {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}

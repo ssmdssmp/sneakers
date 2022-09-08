@@ -1,0 +1,18 @@
+.empty-purchase {
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-purchase img {
+  margin-bottom: 2vh;
+}
+.empty-purchase p {
+  text-align: center;
+  width: 80%;
+}
+.empty-purchase button {
+  width: 200px;
+}

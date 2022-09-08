@@ -1,0 +1,72 @@
+.loader {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.shop-content {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.5vh 4.5vw;
+}
+.search {
+  position: absolute;
+  top: 5.5vh;
+  right: 5vw;
+  height: 4vh;
+  width: 18vw;
+  border: 1px solid rgba(49, 49, 49, 0.137);
+  border-radius: 20px;
+  padding: 0 1vw;
+  transition: all 0.3s ease-in-out;
+  outline-color: #8ab43b;
+  font-size: 2vh;
+}
+.sneaker-item {
+  width: 210px;
+  height: 260px;
+  border-radius: 20px;
+  border: 1px solid #f3f3f3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  font-size: 14px;
+  gap: 14px;
+  transition: all 0.3s ease-in-out;
+}
+.sneaker-item span {
+  display: block;
+  /* font-weight: 700; */
+  /* font-size: 13px; */
+}
+.sneaker-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 1px 0px 25px rgba(185, 185, 185, 0.414);
+}
+.item-img {
+  width: 150px;
+  height: 130px;
+}
+.fav-item,
+.add-item {
+  position: absolute;
+  cursor: pointer;
+}
+.fav-item {
+  top: 30px;
+  left: 30px;
+}
+.add-item {
+  bottom: 15px;
+  right: 30px;
+}
+.item-price {
+  align-self: start;
+  margin-left: 8px;
+}
+.item-price span {
+  font-weight: 700;
+}
